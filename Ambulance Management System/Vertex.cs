@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ambulance_Management_System
+{
+    class Vertex
+    {
+        public string name;
+        public string color;
+        public int distance;
+        public int weight;
+        public Vertex parent;
+        public Vertex(string name)
+        {
+            this.name = name;
+        }
+    }
+}

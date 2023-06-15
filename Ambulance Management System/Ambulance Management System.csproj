@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E572C1E9-C346-42DD-9801-9EDD382A090A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Ambulance_Management_System</RootNamespace>
+    <AssemblyName>Ambulance Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addBus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addBus.Designer.cs">
+      <DependentUpon>addBus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addEmployee.Designer.cs">
+      <DependentUpon>addEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addHospital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addHospital.Designer.cs">
+      <DependentUpon>addHospital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="attendenceSheetEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attendenceSheetEmployee.Designer.cs">
+      <DependentUpon>attendenceSheetEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bus.cs" />
+    <Compile Include="BusNode.cs" />
+    <Compile Include="Compoder.cs" />
+    <Compile Include="deleteBus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteBus.Designer.cs">
+      <DependentUpon>deleteBus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteEmployee.Designer.cs">
+      <DependentUpon>deleteEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteHospital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteHospital.Designer.cs">
+      <DependentUpon>DeleteHospital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DispatchedLinkedList.cs" />
+    <Compile Include="DispatchedGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DispatchedGroup.Designer.cs">
+      <DependentUpon>DispatchedGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DispatchedNode.cs" />
+    <Compile Include="DoublyLinklist.cs" />
+    <Compile Include="Driver.cs" />
+    <Compile Include="ECF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ECF.Designer.cs">
+      <DependentUpon>ECF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ECFNode.cs" />
+    <Compile Include="ECF_class.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graph.cs" />
+    <Compile Include="GroupNode.cs" />
+    <Compile Include="Hospital.cs" />
+    <Compile Include="hospitalLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hospitalLogin.Designer.cs">
+      <DependentUpon>hospitalLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalMainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HospitalMainWindow.Designer.cs">
+      <DependentUpon>HospitalMainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalNode.cs" />
+    <Compile Include="LinkedList.cs" />
+    <Compile Include="mainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainPage.Designer.cs">
+      <DependentUpon>mainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Node.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queue.cs" />
+    <Compile Include="RescueCase.cs" />
+    <Compile Include="RescueGroup.cs" />
+    <Compile Include="Stack.cs" />
+    <Compile Include="StackNode.cs" />
+    <Compile Include="Tree.cs" />
+    <Compile Include="Tree2.cs" />
+    <Compile Include="updateHospital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateHospital.Designer.cs">
+      <DependentUpon>updateHospital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateBus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateBus.Designer.cs">
+      <DependentUpon>updateBus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateEmployee.Designer.cs">
+      <DependentUpon>updateEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vertex.cs" />
+    <EmbeddedResource Include="addBus.resx">
+      <DependentUpon>addBus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addEmployee.resx">
+      <DependentUpon>addEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addHospital.resx">
+      <DependentUpon>addHospital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="attendenceSheetEmployee.resx">
+      <DependentUpon>attendenceSheetEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteBus.resx">
+      <DependentUpon>deleteBus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteEmployee.resx">
+      <DependentUpon>deleteEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteHospital.resx">
+      <DependentUpon>DeleteHospital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DispatchedGroup.resx">
+      <DependentUpon>DispatchedGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ECF.resx">
+      <DependentUpon>ECF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hospitalLogin.resx">
+      <DependentUpon>hospitalLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HospitalMainWindow.resx">
+      <DependentUpon>HospitalMainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainPage.resx">
+      <DependentUpon>mainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="updateHospital.resx">
+      <DependentUpon>updateHospital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateBus.resx">
+      <DependentUpon>updateBus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateEmployee.resx">
+      <DependentUpon>updateEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download__1_-removebg-preview.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

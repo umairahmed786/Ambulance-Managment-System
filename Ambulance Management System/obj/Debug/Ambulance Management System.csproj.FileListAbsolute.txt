@@ -1,0 +1,50 @@
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance Management System.csproj.AssemblyReference.cache
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.addBus.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.addEmployee.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.addHospital.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.attendenceSheetEmployee.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.deleteBus.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.deleteEmployee.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.DeleteHospital.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.ECF.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.Form1.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.hospitalLogin.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.HospitalMainWindow.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.Properties.Resources.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.updateHospital.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.updateBus.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.updateEmployee.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance Management System.csproj.GenerateResource.cache
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance Management System.exe
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance Management System.pdb
+D:\Github\dsa2021g46\Ambulance Management System\bin\Debug\Ambulance Management System.exe.config
+D:\Github\dsa2021g46\Ambulance Management System\bin\Debug\Ambulance Management System.exe
+D:\Github\dsa2021g46\Ambulance Management System\bin\Debug\Ambulance Management System.pdb
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.mainPage.resources
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance Management System.csproj.CoreCompileInputs.cache
+D:\Github\dsa2021g46\Ambulance Management System\obj\Debug\Ambulance_Management_System.DispatchedGroup.resources
+D:\Ambulance Management System\bin\Debug\Ambulance Management System.exe.config
+D:\Ambulance Management System\bin\Debug\Ambulance Management System.exe
+D:\Ambulance Management System\bin\Debug\Ambulance Management System.pdb
+D:\Ambulance Management System\obj\Debug\Ambulance Management System.csproj.AssemblyReference.cache
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.addBus.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.addEmployee.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.addHospital.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.attendenceSheetEmployee.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.deleteBus.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.deleteEmployee.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.DeleteHospital.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.DispatchedGroup.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.ECF.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.Form1.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.hospitalLogin.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.HospitalMainWindow.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.mainPage.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.Properties.Resources.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.updateHospital.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.updateBus.resources
+D:\Ambulance Management System\obj\Debug\Ambulance_Management_System.updateEmployee.resources
+D:\Ambulance Management System\obj\Debug\Ambulance Management System.csproj.GenerateResource.cache
+D:\Ambulance Management System\obj\Debug\Ambulance Management System.csproj.CoreCompileInputs.cache
+D:\Ambulance Management System\obj\Debug\Ambulance Management System.exe
+D:\Ambulance Management System\obj\Debug\Ambulance Management System.pdb
